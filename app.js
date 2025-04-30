@@ -20,4 +20,4 @@ app.use(cookieParser);
 app.use(express.json);
 app.use(express.urlencoded({extended:true}));
 connection();
-app.use(errorMiddleware)
+app.use(errorMiddleware);
